@@ -35,7 +35,11 @@ app.listen(port, ()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
 
-require('dotenv').config();
-const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5174";
-
+app.use(cors(
+    {
+        origin: ["https://eatsify-5ak1.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials:true
+    }
+))
 
