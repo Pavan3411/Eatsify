@@ -35,3 +35,7 @@ app.listen(port, ()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
 
+require('dotenv').config();
+const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5174";
+
+
