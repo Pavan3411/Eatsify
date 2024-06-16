@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi magni mollitia eaque veritatis ratione atque nobis libero quasi, minus placeat aspernatur repellat. Ex at laboriosam asperiores porro cupiditate aperiam.
+                <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.
                 </p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 © Pavan_Suthar - All Right Reserved. </p>
+        <p className="footer-copyright">Copyright 2024 © Tomato - All Right Reserved. </p>
     </div>
   )
 }
